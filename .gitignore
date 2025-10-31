@@ -1,0 +1,14 @@
+# Ignore unnecessary system and Colab files
+.ipynb_checkpoints/
+.DS_Store
+__pycache__/
+*.pyc
+
+# Ignore data files you don't want to push
+data/*.csv
+outputs/*.csv
+outputs/charts/*
+outputs/reports/*
+
+# Ignore environment files
+.env
